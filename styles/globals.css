@@ -1,42 +1,54 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+*{
   margin: 0;
+  padding: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+body {
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); 
+  font-family:'geistSans' !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+
+.cards {
+  width: 301px;
+  height: 255px;
+  border-radius: 12px;
+  border: 1px solid #969696;
+  cursor: pointer;
 }
+
+.label-tv {
+  backdrop-filter: blur(20px);
+  border-radius: 7px;
+  height: 53px;
+  background:linear-gradient(100.38deg, #FFFFFF 12.94%, rgba(255, 255, 255, 0) 159.1%);
+}
+
+.slick-slide {
+  padding: 0 10px; /* Adjust spacing as needed */
+}
+
+.slick-list {
+  margin: 0 -10px; /* Matches the padding to maintain alignment */
+}
+
+
+/* const bgColorByIndex = ["gold","aliceblue","ghostwhite","mintcream"] */
+
+
+.bg-gold{
+  background-color: gold !important;
+}
+
+.bg-aliceblue{
+  background-color: aliceblue !important;
+}
+
+.bg-ghostwhite{
+  background-color: ghostwhite !important;
+}
+
+.bg-mintcream{
+  background-color: mintcream !important;
+}
+

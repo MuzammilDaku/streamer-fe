@@ -1,0 +1,26 @@
+.wrapper {
+  width: 274px;
+  height: 100vh;
+  background-color: #21201e;
+  box-shadow: 2px 0px 90px 0px #6100c266;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.text-color {
+  color: #bcbbbb;
+  font-size: 15px;
+}
+
+.sidebar-item {
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  .svg {
+    color: white;
+  }
+  .text-color {
+    color: #fefefe;
+  }
+}
